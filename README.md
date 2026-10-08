@@ -26,3 +26,10 @@ The image below shows the output for the `Hello.c` program.
 The image below shows the output for the `CASESswitch.c` program.
 
 ![Output for CASESswitch.c program](./IMAGES/Switchfirst.png)
+
+
+## ADMSswitch.c Program Output
+
+The image below shows the output for the `ADMSswitch.c` program.
+
+![Output for ADMSswitch.c program](./IMAGES/ADMSswitch.png)

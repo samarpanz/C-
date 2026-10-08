@@ -3,7 +3,6 @@
 #include <stdio.h>
 int main() {
     int day;
-
     printf("Enter day number (1-7):\n");
     printf("1-Sunday, 2-Monday, 3-Tuesday, 4-Wednesday\n");
     printf("5-Thursday, 6-Friday, 7-Saturday\n");
