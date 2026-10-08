@@ -1,6 +1,7 @@
 # C-
 It might contain C programs taught in scl and clz 
 
+
 ## Useful git commands
 
 ![Git Commands Preview](./IMAGES/GitC.png)
@@ -18,3 +19,10 @@ The image below shows the output for the `Hello.c` program.
 The image below shows the output for the `Hello.c` program.
 
 ![Output for GPAcalculator.c program](./IMAGES/GPAcalculator.png)
+
+
+## CASESswitch.c Program Output
+
+The image below shows the output for the `CASESswitch.c` program.
+
+![Output for CASESswitch.c program](./IMAGES/Switchfirst.png)
