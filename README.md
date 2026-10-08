@@ -32,4 +32,4 @@ The image below shows the output for the `CASESswitch.c` program.
 
 The image below shows the output for the `ADMSswitch.c` program.
 
-![Output for ADMSswitch.c program](./IMAGES/ADMSswitch.png)
+![Output for ADMSswitch.c program](./IMAGES/ADMS.png)
