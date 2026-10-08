@@ -1,35 +1,18 @@
-# C-
-It might contain C programs taught in scl and clz 
+# C programming
+> A repositry made for to learn C programming following the course of TU, IOST's Bachelors in CSIT syllabus.
 
+## Syllabus:
+### Course Contents:
+- [ ] Unit 1. Problem Solving with Computer2 Hrs.
+- [ ] Unit 2. Elements of C4 Hrs.
+- [ ] Unit 3. Input and Output2 Hrs.
+- [ ] Unit 4. Operators and Expression4 Hrs.
+- [ ] Unit 5. Control Statement4 Hrs.
+- [ ] Unit 6. Arrays6 Hrs.
+- [ ] Unit 7. Functions5 Hrs.
+- [ ] Unit 8. Structure and Union5 Hrs.
+- [ ] Unit 9. Pointers6 Hrs.
+- [ ] Unit 10. File Handling in C4 Hrs.
+- [ ] Unit 11. Introduction to Graphics3 Hrs.
 
-## Useful git commands
-
-![Git Commands Preview](./IMAGES/GitC.png)
-
-
-## Hello.c Program Output
-
-The image below shows the output for the `Hello.c` program.
-
-![Output for Hello.c program](./IMAGES/Hello.png)
-
-
-## GPAcalculator.c Program Output
-
-The image below shows the output for the `Hello.c` program.
-
-![Output for GPAcalculator.c program](./IMAGES/GPAcalculator.png)
-
-
-## CASESswitch.c Program Output
-
-The image below shows the output for the `CASESswitch.c` program.
-
-![Output for CASESswitch.c program](./IMAGES/Switchfirst.png)
-
-
-## ADMSswitch.c Program Output
-
-The image below shows the output for the `ADMSswitch.c` program.
-
-![Output for ADMSswitch.c program](./IMAGES/ADMS.png)
+> Codes by [Prayush](https://github.com/Prayushstha/)
