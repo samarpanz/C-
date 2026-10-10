@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/clay_basic_ui.dir/first.c.o -o clay_basic_ui  _deps/raylib-build/raylib/libraylib.a -lm -lpthread /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl 
