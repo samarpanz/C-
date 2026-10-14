@@ -9,14 +9,14 @@ A minimal [microui](https://github.com/rxi/microui) setup using SDL2 + OpenGL (f
 
 ## File Structure
 
-|    File      | Source           | Purpose                                |
-|--------------|------------------|                                        |
-| `main.c`     | demo/ (modified) | Main loop, input, UI definition        |
-| `renderer.c` | demo/            | SDL2 + OpenGL renderer                 |
-| `renderer.h` | demo/            | Renderer API                           |
-| `atlas.inl`  | demo/            | Bitmap font texture for text rendering |
-| `microui.c`  | src/             | MicroUI implementation                 |
-| `microui.h`  | src/             | MicroUI header                         |
+| File | Source | Purpose |
+|------|--------|---------|
+| `main.c` | demo/ (modified) | Main loop, input, UI definition |
+| `renderer.c` | demo/ | SDL2 + OpenGL renderer |
+| `renderer.h` | demo/ | Renderer API |
+| `atlas.inl` | demo/ | Bitmap font texture for text rendering |
+| `microui.c` | src/ | MicroUI implementation |
+| `microui.h` | src/ | MicroUI header |
 
 
 ## Prerequisites
@@ -61,7 +61,6 @@ A separate SDL window will appear with the UI.
 | `mu_input_mousemove(...)`                      | Feed mouse position             |
 | `mu_input_mousepress(...)`                     | Feed mouse button state         |
 | `mu_next_command(ctx, &cmd)`                   | Iterate draw commands           |
-|------------------------------------------------|---------------------------------|
 
 
 ## Notes
@@ -81,4 +80,3 @@ builds the demo automatically before launching it.
 The demo opens a native window and needs a graphical display with OpenGL
 support. A headless remote workspace cannot display the window without a
 configured graphical display.
- 
