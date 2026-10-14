@@ -70,6 +70,7 @@ A separate SDL window will appear with the UI.
 - For loops generating controls, use `mu_push_id()` / `mu_pop_id()` for unique IDs.
 - All UI is re-declared every frame (immediate mode pattern).   
 
+
 ## Run the MicroUI demo
 
 The SDL2/OpenGL demo is in `UI/`. On Linux, install GCC, GDB, `pkg-config`,
