@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 #include "renderer.h"
@@ -15,6 +16,7 @@ static int ui_text_height(mu_Font font) {
 
 int main(void) {
     if (SDL_Init(SDL_INIT_VIDEO) != 0) {
+        fprintf(stderr, "SDL video initialization failed: %s\n", SDL_GetError());
         return 1;
     }
 
@@ -26,6 +28,9 @@ int main(void) {
     ctx.text_height = ui_text_height;
 
     int running = 1;
+    int clicks = 0;
+    int enabled = 1;
+    mu_Real slider = 0.5f;
     while (running) {
         SDL_Event e;
         while (SDL_PollEvent(&e)) {
@@ -67,7 +72,25 @@ int main(void) {
         }
 
         mu_begin(&ctx);
-        // ... your UI code here ...
+        if (mu_begin_window(&ctx, "MicroUI Demo", mu_rect(40, 40, 320, 240))) {
+            static const int row[] = { -1 };
+            char click_text[48];
+
+            mu_layout_row(&ctx, 1, row, 26);
+            mu_label(&ctx, "SDL2 + OpenGL UI is running.");
+            mu_layout_row(&ctx, 1, row, 30);
+            if (mu_button(&ctx, "Click me"))
+                clicks++;
+
+            snprintf(click_text, sizeof(click_text), "Button clicks: %d", clicks);
+            mu_layout_row(&ctx, 1, row, 26);
+            mu_label(&ctx, click_text);
+            mu_layout_row(&ctx, 1, row, 26);
+            mu_checkbox(&ctx, "Enabled", &enabled);
+            mu_layout_row(&ctx, 1, row, 26);
+            mu_slider(&ctx, &slider, 0.0f, 1.0f);
+        }
+        mu_end_window(&ctx);
         mu_end(&ctx);
 
         r_clear(mu_color(0x30, 0x30, 0x30, 255));

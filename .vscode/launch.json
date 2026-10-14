@@ -2,16 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
+      "name": "Launch MicroUI UI (SDL2)",
       "type": "cppdbg",
       "request": "launch",
+      "program": "${workspaceFolder}/build/microui-ui",
       "args": [],
       "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
       "externalConsole": false,
-      "cwd": "/workspaces/C-",
-      "program": "/workspaces/C-/build/Debug/outDebug",
+      "preLaunchTask": "Build MicroUI UI",
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

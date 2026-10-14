@@ -21,7 +21,7 @@ static SDL_Window *window;
 void r_init(void) {
   /* init SDL window */
   window = SDL_CreateWindow(
-    NULL, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+    "MicroUI Demo", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
     width, height, SDL_WINDOW_OPENGL);
   SDL_GL_CreateContext(window);
 
