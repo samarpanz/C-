@@ -1,0 +1,6 @@
+# Ignore editor configuration
+.vscode/
+
+# Ignore build artifacts and generated outputs
+build/
+clay/
