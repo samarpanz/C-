@@ -4,3 +4,4 @@
 # Ignore build artifacts and generated outputs
 build/
 clay/
+microui/
