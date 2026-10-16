@@ -3,3 +3,6 @@
 
 # Ignore all Windows executable files
 *.exe
+
+# Ignore build artifacts 
+build/
