@@ -4,32 +4,39 @@ It might contain C programs taught in scl and clz
 
 ## Useful git commands
 
-![Git command reference showing commonly used commands and their syntax in a terminal-focused development workspace](./IMAGES/GitC.png)
+![Git command reference displaying commonly used Git commands and their syntax in a terminal window within a development workspace](./IMAGES/GitC.png)
 
 
 ## Hello.c Program Output
 
 The image below shows the output for the `Hello.c` program.
 
-![Terminal output from Hello.c showing the program response after it runs](./IMAGES/Hello.png)
+![Terminal window displaying the text output produced by the Hello.c program after execution in a command-line environment](./IMAGES/Hello.png)
 
 
 ## GPAcalculator.c Program Output
 
 The image below shows the output for the `Hello.c` program.
 
-![Terminal output from GPAcalculator.c showing the program response and calculated GPA after it runs](./IMAGES/GPAcalculator.png)
+![Terminal window displaying the GPAcalculator.c program response and calculated GPA after execution in a command-line environment](./IMAGES/GPAcalculator.png)
 
 
 ## CASESswitch.c Program Output
 
 The image below shows the output for the `CASESswitch.c` program.
 
-![Terminal output from CASESswitch.c showing the result of a selected switch-case branch](./IMAGES/Switchfirst.png)
+![Terminal window displaying the result produced by a selected switch-case branch in CASESswitch.c within a command-line environment](./IMAGES/Switchfirst.png)
 
 
 ## ADMSswitch.c Program Output
 
 The image below shows the output for the `ADMSswitch.c` program.
 
-![Terminal output from ADMSswitch.c showing the result of a selected switch-case branch](./IMAGES/ADMS.png)
+![Terminal window displaying the result produced by a selected switch-case branch in ADMSswitch.c within a command-line environment](./IMAGES/ADMS.png)
+
+
+## nterm.c Program Output
+
+The image below shows the output for the `nterm.c` program.
+
+![Terminal window displaying the result produced by nterm.c after execution in a command-line environment](./IMAGES/nterm.png)

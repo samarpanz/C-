@@ -2,7 +2,7 @@
 int main() {
 
     int n;
-    printf("Enter n numbers to which u want to see the even numbers: \n");
+    printf("Enter n numbers to which u want to see the even numbers: ");
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {
