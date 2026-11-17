@@ -4,32 +4,32 @@ It might contain C programs taught in scl and clz
 
 ## Useful git commands
 
-![Git Commands Preview](./IMAGES/GitC.png)
+![Git command reference showing commonly used commands and their syntax in a terminal-focused development workspace](./IMAGES/GitC.png)
 
 
 ## Hello.c Program Output
 
 The image below shows the output for the `Hello.c` program.
 
-![Output for Hello.c program](./IMAGES/Hello.png)
+![Terminal output from Hello.c showing the program response after it runs](./IMAGES/Hello.png)
 
 
 ## GPAcalculator.c Program Output
 
 The image below shows the output for the `Hello.c` program.
 
-![Output for GPAcalculator.c program](./IMAGES/GPAcalculator.png)
+![Terminal output from GPAcalculator.c showing the program response and calculated GPA after it runs](./IMAGES/GPAcalculator.png)
 
 
 ## CASESswitch.c Program Output
 
 The image below shows the output for the `CASESswitch.c` program.
 
-![Output for CASESswitch.c program](./IMAGES/Switchfirst.png)
+![Terminal output from CASESswitch.c showing the result of a selected switch-case branch](./IMAGES/Switchfirst.png)
 
 
 ## ADMSswitch.c Program Output
 
 The image below shows the output for the `ADMSswitch.c` program.
 
-![Output for ADMSswitch.c program](./IMAGES/ADMS.png)
+![Terminal output from ADMSswitch.c showing the result of a selected switch-case branch](./IMAGES/ADMS.png)
